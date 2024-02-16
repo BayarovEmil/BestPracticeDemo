@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E449C4B4-47A6-483C-9C82-B1B6F53FFB85}</ProjectGuid>
+    <ProjectGuid>{C46DB663-6D49-45CF-858C-CFE1D0D3F84D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StartAProject</RootNamespace>
-    <AssemblyName>StartAProject</AssemblyName>
+    <RootNamespace>BasicPractice</RootNamespace>
+    <AssemblyName>BasicPractice</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICustomerDal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
