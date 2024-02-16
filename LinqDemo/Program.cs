@@ -35,7 +35,7 @@ namespace LinqDemo
                 
             }
 
-            Console.WriteLine("Alqoritm------------->");
+            Console.WriteLine("Linq------------->");
             List<Product> result = products.Where(p => p.UnitPrice >= 1400 && p.UnitsInStock>3).ToList();
             foreach (var product in result)
             {
